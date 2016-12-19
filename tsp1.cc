@@ -24,7 +24,7 @@ void print(int **dist, int size) // print the whole distance matrix out..
     {
         for(int j=0; j<size; ++j)
         { cout<<dist[i][j]<<" "; }
-    cout<<endl;
+        cout<<endl;
     }
 }
 
@@ -136,7 +136,7 @@ int main(int argc, char *argv[])
                 mapin>>dist[i][j];
             }
         }
-    cout<<"Load the map from "<<FileName<<endl;
+        cout<<"Load the map from "<<FileName<<endl;
     }
     else // generate a map from the code..
     {    
