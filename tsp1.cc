@@ -80,7 +80,7 @@ int Permute(int **dist, int size, bool *visited, int *routine, long int shortest
         delete[] new_visited;
         delete[] new_routine;
     }
-return shortest;
+    return shortest;
 }
 
 int main(int argc, char *argv[])
@@ -151,7 +151,7 @@ int main(int argc, char *argv[])
                 dist[i][j] = dist[j][i] = dis;
             }
         }
-    cout<<"Randomly generated map: "<<endl;
+        cout<<"Randomly generated map: "<<endl;
     }
     
     mapin.close();
